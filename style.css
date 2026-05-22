@@ -601,6 +601,17 @@ main {
     height: 220px;
 }
 
+
+@media (max-width: 768px) {
+    .galeria__btn-vermas {
+        height: 140px;
+    }
+
+    .galeria__btn-vermas .quitar-margin {
+        margin-top: 20px;
+    }
+}
+
 .galeria__btn-vermas span {
     color: #ffffffd6;
     font-family: 'Poppins', sans-serif;
