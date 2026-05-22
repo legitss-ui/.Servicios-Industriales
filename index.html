@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPV Servicios Industriales</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header" id="header" role="banner">
+        <div class="header__logo" role="img" aria-label="Logo GPV Servicios Industriales">
+            <div class="header__icon">GPV</div>
+            <div>
+                <p class="header__sub">Servicios Industriales</p>
+            </div>
+        </div>
+
+        <nav class="header__nav" id="nav" aria-label="Navegación principal">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <a href="https://wa.me/524499061873" class="header__cta" target="_blank"
+            aria-label="Llamar por WhatsApp al 449 906 1873">
+            <i class="fa-brands fa-whatsapp"></i>
+            449 906 1873
+        </a>
+
+        <button class="header__burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main id="inicio">
+
+        <section class="hero" aria-labelledby="hero-titulo">
+            <div class="hero__content">
+                <div class="hero__badges">
+                    <span class="hero__badge">+15 años de experiencia</span>
+                    <span class="hero__badge hero__badge--loc">📍 Aguascalientes, México</span>
+                </div>
+
+                <h1 class="hero__title" id="hero-titulo">
+                    Soluciones<br>
+                    Industriales<br>
+                    <span>Profesionales</span>
+                </h1>
+
+                <p class="hero__desc">
+                    Balconería, pailería, mantenimiento y electricidad
+                    para empresas y particulares.
+                </p>
+
+                <ul class="hero__checks" aria-label="Ventajas de GPV">
+                    <li>Personal altamente capacitado</li>
+                    <li>Garantía en todos los trabajos</li>
+                    <li>Respuesta en menos de 24 horas</li>
+                </ul>
+
+                <div class="hero__btns">
+                    <a href="#contacto" class="btn btn--primary">Solicitar cotización</a>
+                    <a href="#servicios" class="btn btn--secondary">Ver servicios</a>
+                </div>
+            </div>
+
+            <div class="hero__img">
+                <p>GPV</p>
+            </div>
+        </section>
+
+        <section class="stats" aria-label="Estadísticas de GPV Servicios Industriales">
+            <div class="stats__item">
+                <span class="stats__num">500+</span>
+                <span class="stats__label">Trabajos realizados</span>
+            </div>
+            <div class="stats__item">
+                <span class="stats__num">100+</span>
+                <span class="stats__label">Clientes atendidos</span>
+            </div>
+            <div class="stats__item">
+                <span class="stats__num">15+</span>
+                <span class="stats__label">Años de experiencia</span>
+            </div>
+        </section>
+
+        <section class="slider-sec" id="servicios" aria-labelledby="slider-titulo">
+            <div class="slider-sec__header">
+                <p class="slider-sec__label">Nuestro trabajo</p>
+                <h2 class="slider-sec__title" id="slider-titulo">Proyectos realizados</h2>
+                <p class="slider-sec__sub">Más de 500 trabajos en Aguascalientes y zona</p>
+            </div>
+
+            <div class="slider" role="region" aria-label="Carrusel de proyectos realizados">
+                <div class="slider__track" id="sliderTrack" aria-live="polite">
+
+                    <div class="slider__slide" role="img" aria-label="Mantenimiento Industrial">
+                        <img class="image__src" src="/imagen 10.jpeg"
+                            alt="Trabajo de mantenimiento industrial realizado por GPV">
+                        <div class="slider__overlay">
+                            <span class="slider__tag">Paileria</span>
+                            <h3 class="slider__name">Paileria industrial con aplicado de impermeabilizante</h3>
+                            <p class="slider__desc">Preventivo y instalacion de maquinaria</p>
+                        </div>
+                    </div>
+
+                    <div class="slider__slide" role="img" aria-label="Balconería y barandales">
+                        <img class="image__src" src="/imagen 5.jpeg" alt="Balcones y barandales fabricados por GPV">
+                        <div class="slider__overlay">
+                            <span class="slider__tag">Balconería</span>
+                            <h3 class="slider__name">Fabricacion de gusanos para funcionamiento de maquinaria industrial
+                            </h3>
+                            <p class="slider__desc">Diseño y fabricación a medida</p>
+                        </div>
+                    </div>
+
+                    <div class="slider__slide" role="img" aria-label="Pailería industrial">
+                        <img class="image__src" src="/imagen 21.jpeg"
+                            alt="Tanques y estructuras de pailería industrial por GPV">
+                        <div class="slider__overlay">
+                            <span class="slider__tag">Pailería</span>
+                            <h3 class="slider__name">Pailería Industrial</h3>
+                            <p class="slider__desc">Estructuras de acero</p>
+                        </div>
+                    </div>
+
+                    <div class="slider__slide" role="img" aria-label="Servicios eléctricos industriales">
+                        <img class="image__src" src="/imagen 30.jpeg"
+                            alt="Instalación eléctrica industrial realizada por GPV">
+                        <div class="slider__overlay">
+                            <span class="slider__tag">Mantenimiento Industrial</span>
+                            <h3 class="slider__name">Servicios Eléctricos, Instalaccion de ductos</h3>
+                            <p class="slider__desc">Instalación y mantenimiento industrial</p>
+                        </div>
+                    </div>
+
+                    <div class="slider__slide" role="img" aria-label="Soldadura especializada">
+                        <img class="image__src" src="/imagen 17.jpeg" alt="Trabajo de soldadura especializada por GPV">
+                        <div class="slider__overlay">
+                            <span class="slider__tag">Soldadura</span>
+                            <h3 class="slider__name">Soldadura Especializada</h3>
+                            <p class="slider__desc">Certificada en todos los procesos</p>
+                        </div>
+                    </div>
+                    <img class="card-image" onclick="abrirModal(this.src)" src="" alt="" srcset="">
+                </div>
+
+                <div class="slider__progress-fill" id="sliderProgress"></div>
+            </div>
+
+            <div class="slider__nav">
+                <button class="slider__btn" id="sliderPrev" aria-label="Slide anterior">&#8592;</button>
+                <div class="slider__dots" id="sliderDots" role="tablist" aria-label="Navegación de slides"></div>
+                <span class="slider__counter" id="sliderCounter" aria-live="polite">1 / 5</span>
+                <button class="slider__btn" id="sliderNext" aria-label="Slide siguiente">&#8594;</button>
+            </div>
+        </section>
+
+        <section class="galeria" aria-labelledby="galeria-titulo">
+            <div class="galeria__header">
+                <p class="galeria__label">Galería</p>
+                <h2 class="galeria__title" id="galeria-titulo">Trabajos recientes</h2>
+                <p class="galeria__sub">Resultados reales, sin edición</p>
+
+            </div>
+
+            <div class="galeria__mosaic" role="list">
+                <div class="galeria__card galeria__card--big" role="listitem">
+                    <img class="image__src" src="/imagen 2.jpeg"
+                        alt="Mantenimiento Industrial hecho por GPV en Aguascalientes">
+                    <div class="galeria__overlay">
+                        <p class="galeria__card-name">Mantenimiento Industrial</p>
+                    </div>
+                </div>
+
+                <div class="galeria__card" role="listitem">
+                    <img class="image__src" src="/imagen 3.jpeg" alt="Mantenimiento industrial hecho por GPV">
+                    <div class="galeria__overlay">
+                        <p class="galeria__card-name">Mantenimiento Industrial</p>
+                    </div>
+                </div>
+
+                <div class="galeria__card" role="listitem">
+                    <img class="image__src" src="/imagen 4.jpeg" alt="Mantenimiento industrial hecho por GPV">
+                    <div class="galeria__overlay">
+                        <p class="galeria__card-name">Mantenimiento Industrial</p>
+                    </div>
+                </div>
+
+                <div class="galeria__card" role="listitem">
+                    <img class="image__src" src="/imagen 5.jpeg" alt="Mantenimiento industrial hecho por GPV">
+                    <div class="galeria__overlay">
+                        <p class="galeria__card-name">Reparacion / mantenimiento de equipo industrial</p>
+                    </div>
+                </div>
+
+                <div class="galeria__card" role="listitem">
+                    <img class="image__src" src="/imagen 6.jpeg" alt="Mantenimiento industrial hecho por GPV">
+                    <div class="galeria__overlay">
+                        <p class="galeria__card-name">Reparacion / mantenimiento de equipo industrial</p>
+                    </div>
+                </div>
+
+                <div class="galeria__card" role="listitem">
+                    <img class="image__src" src="/imagen 7.jpeg" alt="Mantenimiento industrial hecho  por GPV">
+                    <div class="galeria__overlay">
+                        <p class="galeria__card-name">Reparacion / mantenimiento de equipo industrial</p>
+                    </div>
+                </div>
+
+                <div class="galeria__card" role="listitem">
+                    <img class="image__src" src="/imagen 1.jpeg" alt="Mantenimiento industrial hecho  por GPV">
+                    <div class="galeria__overlay">
+                        <p class="galeria__card-name">Porton fabricado por GPV</p>
+                    </div>
+                </div>
+
+                <div class="galeria__card" role="listitem">
+                    <img class="image__src" src="/imagen 8.jpeg" alt="Mantenimiento industrial hecho  por GPV">
+                    <div class="galeria__overlay">
+                        <p class="galeria__card-name">Reparacion de equipo industrial</p>
+                    </div>
+                </div>
+
+                <a href="/galeria-de-trabajos.html" target="_blank">
+                    <span class="galeria__btn-vermas" id="btnVerMas"><span>Ver más trabajos →</span></span>
+                </a>
+
+                <div id="modalGaleria" class="modal-galeria">
+                    <div class="modal-galeria-contenido">
+                        <span class="close-modal-galeria">&times;</span>
+                        <img id="imagenModal" src="" alt="Imagen ampliada">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="nosotros" id="nosotros" aria-labelledby="nosotros-titulo">
+            <div class="nosotros__header">
+                <p class="nosotros__label">Quiénes somos</p>
+                <h2 class="nosotros__title" id="nosotros-titulo">¿Por qué GPV?</h2>
+                <p class="nosotros__sub">Comprometidos con hacer bien el trabajo</p>
+            </div>
+
+            <div class="nosotros__grid">
+                <div class="nosotros__card">
+                    <div class="nosotros__icon" aria-hidden="true">🎯</div>
+                    <h3 class="nosotros__card-title">Precisión</h3>
+                    <p class="nosotros__card-desc">
+                        Cada trabajo se mide, se verifica y se entrega completo.
+                    </p>
+                </div>
+
+                <div class="nosotros__card">
+                    <div class="nosotros__icon" aria-hidden="true">🤝</div>
+                    <h3 class="nosotros__card-title">Puntualidad</h3>
+                    <p class="nosotros__card-desc">
+                        Llegamos cuando decimos y terminamos en el plazo acordado.
+                    </p>
+                </div>
+
+                <div class="nosotros__card">
+                    <div class="nosotros__icon" aria-hidden="true">🛡️</div>
+                    <h3 class="nosotros__card-title">Seguridad</h3>
+                    <p class="nosotros__card-desc">
+                        Normas de seguridad en todos los procesos, sin excepciones.
+                    </p>
+                </div>
+
+                <div class="nosotros__card">
+                    <div class="nosotros__icon" aria-hidden="true">📞</div>
+                    <h3 class="nosotros__card-title">Disponibilidad</h3>
+                    <p class="nosotros__card-desc">
+                        Respondemos cotizaciones en menos de 24 horas.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacto" id="contacto" aria-labelledby="contacto-titulo">
+            <div class="contacto__header">
+                <p class="contacto__label">Cotización</p>
+                <h2 class="contacto__title" id="contacto-titulo">Solicite una Cotización</h2>
+                <p class="contacto__sub">Le respondemos en menos de 24 horas</p>
+            </div>
+
+            <form class="contacto__form" onsubmit="enviarWhatsapp(event)" aria-label="Formulario de cotización">
+                <div class="contacto__row">
+                    <div class="contacto__field">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" placeholder="Tu nombre completo" autocomplete="name" required>
+                    </div>
+                    <div class="contacto__field">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" placeholder="+52 449..." autocomplete="tel" required>
+                    </div>
+                </div>
+
+                <div class="contacto__field">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" placeholder="correo@ejemplo.com" autocomplete="email" required>
+                </div>
+
+                <div class="contacto__field">
+                    <label for="servicio">Servicio de interés</label>
+                    <select id="servicio" required>
+                        <option value="" disabled selected>Seleccione un servicio</option>
+                        <option value="mantenimiento">Mantenimiento Industrial</option>
+                        <option value="balconeria">Balconería</option>
+                        <option value="paileria">Pailería Industrial</option>
+                        <option value="electrico">Servicios Eléctricos</option>
+                        <option value="soldadura">Soldadura</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                </div>
+
+                <div class="contacto__field">
+                    <label for="mensaje">Descripción del proyecto</label>
+                    <textarea id="mensaje" rows="4" placeholder="Describa su proyecto..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn--primary contacto__submit">
+                    Enviar solicitud
+                </button>
+
+                <a href="https://wa.me/524499061873" class="contacto__wa" target="_blank"
+                    aria-label="Contactar a GPV por WhatsApp">
+                    <span class="contacto__wa-dot" aria-hidden="true"></span>
+                    O escríbenos directo por WhatsApp
+                    <span class="contacto__wa-arrow" aria-hidden="true">→</span>
+                </a>
+            </form>
+        </section>
+
+        <footer class="footer" role="contentinfo">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <p class="footer__brand">GPV</p>
+                    <p class="footer__brand-sub">Servicios Industriales · Aguascalientes</p>
+                    <p class="footer__desc">
+                        Más de 15 años y 500 trabajos realizados
+                        en Aguascalientes y zona.
+                    </p>
+                    <a href="https://wa.me/524499061873" target="_blank" aria-label="WhatsApp">
+                        <i class="fa-brands fa-whatsapp" id="whatsapp" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/serviciosindustriales" target="_blank" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram" id="instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="mailto:Serviciosindustrialesgpv@gmail.com" aria-label="Correo electrónico">
+                        <i class="fa-solid fa-envelope" id="correo" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <div class="footer__col">
+                    <h4 class="footer__col-title">Servicios</h4>
+                    <ul class="footer__list">
+                        <li><a href="#servicios">Mantenimiento Industrial</a></li>
+                        <li><a href="#servicios">Balconería</a></li>
+                        <li><a href="#servicios">Pailería</a></li>
+                        <li><a href="#servicios">Servicios Eléctricos</a></li>
+                        <li><a href="#servicios">Soldadura</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <h4 class="footer__col-title">Contacto</h4>
+                    <ul class="footer__list footer__list--contact">
+                        <li>
+                            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                            +52 449 906 1873
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                            Serviciosindustrialesgpv@gmail.com
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                            Aguascalientes, México
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-clock" aria-hidden="true"></i>
+                            Lun – Sab: 8:00 AM – 8:00 PM
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>© 2025 GPV Servicios Industriales. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <a href="https://wa.me/524499061873" class="cta-flotante" target="_blank"
+        aria-label="Cotizar con GPV Servicios Industriales por WhatsApp">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+        Cotizar por WhatsApp
+    </a>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>>
